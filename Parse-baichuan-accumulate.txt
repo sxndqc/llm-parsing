@@ -1,0 +1,111 @@
+城市 电视 是 加拿大 一间 收费 电视台 ， 大部分 时段 以 普通话 广播 ， 并设 韩语 及 越南语 节目 时段 。
+# sentence level graph:
+(s0x / 是-01
+  :ARG0 (s0x2 / 电视台
+          :name (s0x3 / name
+                  :op1 "城市"
+                  :op2 "电视")
+          :ARG1-of (s0h / have-org-91
+                     :ARG2 (s0x4 / 加拿大)
+                     :ARG3 (s0x5 / 收费)
+                     :aspect possession)
+  :ARG1 (s0x6 / 时段
+          :mod (s0x7 / 大部分)
+          :ARG2 (s0x8 / 时段
+                  :mod (s0x9 / 以)
+                  :ARG1 (s0x10 / 普通话)
+                  :ARG2 (s0x11 / 语言))
+  :ARG3 (s0x12 / 并)
+  :ARG4 (s0x13 / 设)
+  :ARG5 (s0x14 / 韩语)
+  :ARG6 (s0x15 / 及)
+  :ARG7 (s0x16 / 越南语)
+  :ARG8 (s0x17 / 节目)
+  :ARG9 (s0x18 / 时段)
+  :aspect performance)
+该台 的 最大 股东 为 新 时代 集团 子公司 新 时代 传媒 集团 ， 总部 设于 卑诗省 大 温哥华 地区 的 列治文 ， 并 于 安大略省 大 多伦多 地区 的 列治文山 设有 分部 。
+# sentence level graph:
+(s1x / 是-01
+  :ARG0 (s1x2 / 股东
+          :ARG1 (s1x3 / 公司
+                  :name (s1x4 / name
+                          :op1 "新"
+                          :op2 "时代"
+                          :op3 "集团"
+                          :op4 "子公司"
+                          :op5 "新时代"
+                          :op6 "传媒"
+                          :op7 "传媒"
+                          :op8 "集团")
+                  :ARG0-of (s1x5 / 最大
+                              :ARG1 (s1x6 / 该台)
+                              :aspect possession))
+  :ARG1 (s1x7 / 总部
+          :ARG1-of (s1x8 / 设于
+                      :ARG1 (s1x9 / 卑诗省
+                              :name (s1x10 / name
+                                      :op1 "大"
+                                      :op2 "温哥华"
+                                      :op3 "地区"
+                                      :op4 "列治文"))
+                      :ARG2 (s1x11 / 大温哥华地区))
+  :ARG2 (s1x12 / 并)
+  :ARG3 (s1x13 / 于)
+  :ARG4 (s1x14 / 安大略省
+          :name (s1x15 / name
+                      :op1 "大"
+                      :op2 "多伦多"
+                      :op3 "地区"
+                      :op4 "列治文山"))
+  :ARG5 (s1x16 / 设有
+          :ARG1 (s1x17 / 分部)
+          :ARG2 (s1x18 / 列治文山))
+  :aspect performance)
+该台 现时 设有 两条 频道 ， 分别 是 以 标清 播放 的 主 频道 （ 1 台 ） 和 以 高清 播放 的 城市 2 高清 台 ： 前者 可 于 全国 以 有线 电视 、 宽带 电视 和 卫星 电视 接收 ， 后者 于 启播 初期 则 在 贝尔 公司 的 宽带 电视 系统 播放 。
+# sentence level graph:
+(s2x / 是-01
+  :ARG0 (s2x2 / 频道
+          :ARG1 (s2x3 / 主
+                  :ARG1-of (s2x4 / 该台)
+                  :mod (s2x5 / 以)
+                  :ARG2 (s2x6 / 标清)
+                  :ARG3 (s2x7 / 播放)
+                  :ARG4 (s2x8 / 1台))
+  :ARG1 (s2x9 / 并)
+  :ARG2 (s2x10 / 以)
+  :ARG3 (s2x11 / 高清)
+  :ARG4 (s2x12 / 城市2高清台)
+  :ARG5 (s2x13 / 后者)
+  :ARG6 (s2x14 / 于)
+  :ARG7 (s2x15 / 启播)
+  :ARG8 (s2x16 / 初期)
+  :ARG9 (s2x17 / 则)
+  :ARG10 (s2x18 / 在)
+  :ARG11 (s2x19 / 贝尔)
+  :ARG12 (s2x20 / 公司)
+  :ARG13 (s2x21 / 宽带)
+  :ARG14 (s2x22 / 电视)
+  :ARG15 (s2x23 / 系统)
+  :ARG16 (s2x24 / 播放)
+  :aspect performance)
+与 其 姊妹台 新 时代 电视 的 主 频道 不同 ， 城市 电视 的 两条 频道 于 全国 各自 以 同一 讯号 播放 ， 不设 加东 版 和 加西 版 。
+# sentence level graph:
+(s3x / 是-01
+  :ARG0 (s3x2 / 频道
+          :ARG1 (s3x3 / 主
+                  :ARG1-of (s3x4 / 城市)
+                  :mod (s3x5 / 与)
+                  :ARG2 (s3x6 / 姊妹台)
+                  :ARG3 (s3x7 / 新)
+                  :ARG4 (s3x8 / 时代)
+                  :ARG5 (s3x9 / 电视)
+                  :ARG6 (s3x10 / 讯号)
+                  :ARG7 (s3x11 / 播放)
+                  :ARG8 (s3x12 / 同一)
+                  :ARG9 (s3x13 / 全国)
+                  :ARG10 (s3x14 / 各自)
+                  :ARG11 (s3x15 / 于)
+                  :ARG12 (s3x16 / 同一)
+                  :ARG13 (s3x17 / 讯号)
+                  :ARG14 (s3x18 / 播放)
+                  :aspect performance))

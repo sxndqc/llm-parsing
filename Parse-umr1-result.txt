@@ -1,0 +1,829 @@
+城市 电视 是 加拿大 一间 收费 电视台 ， 大部分 时段 以 普通话 广播 ， 并设 韩语 及 越南语 节目 时段 。
+# sentence level graph:
+    (s0x / 是-01
+      :ARG1 (s0x2 / 电视台
+              :mod (s0x3 / 收费)
+              :ARG1-of (s0n / company
+                          :name (s0n2 / name
+                                  :op1 "城市"
+                                  :op2 "电视")
+                          :ARG1-of (s0h / have-org-role-91
+                                     :ARG3 (s0x4 / 台
+                                             :ARG0-of (s0x5 / 加拿大)
+                                             :aspect performance))
+                          :ARG2 (s0x6 / 时段
+                                 :mod (s0x7 / 大部分)
+                                 :ARG1 (s0x8 / 时
+                                         :part-of (s0x9 / 节目
+                                                 :mod (s0x10 / 并设)
+                                                 :ARG0 (s0x11 / 韩语
+                                                        :ARG1 (s0x12 / 节目
+                                                                :mod (s0x13 / 及)
+                                                                :ARG0-of (s0x14 / 越南语
+                                                                     :ARG1 (s0x15 / 节目
+                                                                             :mod (s0x16 / 及)
+                                                                             :ARG0-of (s0x17 / 普通话
+                                                                                     :ARG1 (s0x18 / 语言
+                                                                                         :mod (s0x19 / 普通话)
+                                                                                         :ARG0-of (s0x20 / 中国)
+                                                                                         :ARG1-of (s0x21 / 方言
+                                                                                                 :mod (s0x22 / 多种)
+                                                                                                 :ARG0-of (s0x23 / 汉语
+                                                                                                         :ARG1 (s0x24 / 语
+                                                                                                                 :mod (s0x25 / 多种)
+                                                                                                                 :ARG0-of (s0x26 / 中国)
+                                                                                                                 :ARG1-of (s0x27 / 粤语
+                                                                                                                         :mod (s0x28 / 广东)
+                                                                                                                         :ARG0-of (s0x29 / 中国)
+                                                                                                                         :ARG1-of (s0x30 / 闽南语
+                                                                                                                             :mod (s0x31 / 福建)
+                                                                                                                             :ARG0-of (s0x32 / 中国)
+                                                                                                                             :ARG1-of (s0x33 / 英语
+                                                                                                                                 :mod (s0x34 / 英国)
+                                                                                                                                 :ARG0-of (s0x35 / 中国)
+                                                                                                                                 :ARG1-of (s0x36 / 法语
+                                                                                                                                     :mod (s0x37 / 法国)
+                                                                                                                                     :ARG0-of (s0x38 / 中国)
+                                                                                                                                     :ARG1-of (s0x39 / 西班牙语
+                                                                                                                                         :mod (s0x40 / 西班牙)
+                                                                                                                                         :ARG0-of (s0x41 / 中国)
+                                                                                                                                         :ARG1-of (s0x42 / 葡萄牙语
+                                                                                                                                                 :mod (s0x43 / 葡萄牙)
+                                                                                                                                                 :ARG0-of (s0x44 / 中国)
+                                                                                                                                                 :ARG1-of (s0x45 / 意大利语
+                                                                                                                                                         :mod (s0x46 / 意大利)
+                                                                                                                                                         :ARG0-of (s0x47 / 中国)
+                                                                                                                                                         :ARG1-of (s0x48 / 德语
+                                                                                                                                                             :mod (s0x49 / 德国)
+                                                                                                                                                             :ARG0-of (s0x50 / 中国)
+                                                                                                                                                             :ARG1-of (s0x51 / 日语
+                                                                                                                                                                 :mod (s0x52 / 日本)
+                                                                                                                                                                 :ARG0-of (s0x53 / 中国)
+                                                                                                                                                                 :ARG1-of (s0x54 / 韩语
+                                                                                                                                                                         :mod (s0x55 / 韩国)
+                                                                                                                                                                         :ARG0-of (s0x56 / 中国)
+                                                                                                                                                                         :ARG1-of (s0x57 / 越南语
+                                                                                                                                                                             :mod (s0x58 / 越南)
+                                                                                                                                                                             :ARG0-of (s0x59 / 中国)
+                                                                                                                                                                             :ARG1-of (s0x60 / 英语
+                                                                                                                                                                                 :mod (s0x61 / 英国)
+                                                                                                                                                                                 :ARG0-of (s0x62 / 中国)
+                                                                                                                                                                                 :ARG1-of (s0x63 / 法语
+                                                                                                                                                                                         :mod (s0x64 / 法国)
+                                                                                                                                                                                         :ARG0-of (s0x65 / 中国)
+                                                                                                                                                                                         :ARG1-of (s0x66 / 西班牙语
+                                                                                                                                                                                             :mod (s0x67 / 西班牙)
+                                                                                                                                                                                             :ARG0-of (s0x68 / 中国)
+                                                                                                                                                                                             :ARG1-of (s0x69 / 意大利语
+                                                                                                                                                                                                 :mod (s0x70 / 意大利)
+                                                                                                                                                                                                 :ARG0-of (s0x71 / 中国)
+                                                                                                                                                                                                 :ARG1-of (s0x72 / 德语
+                                                                                                                                                                                                     :mod (s0x73 / 德国)
+                                                                                                                                                                                                     :ARG0-of (s0x74 / 中国)
+                                                                                                                                                                                                     :ARG1-of (s0x75 / 日语
+                                                                                                                                                                                                             :mod (s0x76 / 日本)
+                                                                                                                                                                                                             :ARG0-of (s0x77 / 中国)
+                                                                                                                                                                                                             :ARG1-of (s0x78 / 韩语
+                                                                                                                                                                                                                 :mod (s0x79 / 韩国)
+                                                                                                                                                                                                                 :ARG0-of (s0x80 / 中国)
+                                                                                                                                                                                                                 :ARG1-of (s0x81 / 英语
+                                                                                                                                                                                                             :mod (s0x82 / 英国)
+                                                                                                                                                                                                             :ARG0-of (s0x83 / 中国)
+                                                                                                                                                                                                             :ARG1-of (s0x84 / 法语
+                                                                                                                                                                                                                         :mod (s0x85 / 法国)
+                                                                                                                                                                                                                         :ARG0-of (s0x86 / 中国)
+                                                                                                                                                                                                                         :ARG1-of (s0x87 / 西班牙语
+                                                                                                                                                                                                                             :mod (s0x88 / 西班牙)
+                                                                                                                                                                                                                             :ARG0-of (s0x89 / 中国)
+                                                                                                                                                                                                                             :ARG1-of (s0x90 / 意大利语
+                                                                                                                                                                                                                         :mod (s0x91 / 意大利)
+                                                                                                                                                                                                                         :ARG0-of (s0x92 / 中国)
+                                                                                                                                                                                                                         :ARG1-of (s0x93 / 德语
+                                                                                                                                                                                                                             :mod (s0x94 / 德国)
+                                                                                                                                                                                                                             :ARG0-of (s0x95 / 中国)
+                                                                                                                                                                                                                             :ARG1-of (s0x96 / 日语
+                                                                                                                                                                                                                             :mod (s0x97 / 日本)
+                                                                                                                                                                                                                             :ARG0-of (s0x98 / 中国)
+                                                                                                                                                                                                                             :ARG1-of (s0x99 / 韩语
+                                                                                                                                                                                                                                 :mod (s0x100
+该台 的 最大 股东 为 新 时代 集团 子公司 新 时代 传媒 集团 ， 总部 设于 卑诗省 大 温哥华 地区 的 列治文 ， 并 于 安大略省 大 多伦多 地区 的 列治文山 设有 分部 。
+# sentence level graph:
+    (s1x / 设立-01
+        :ARG0 (s1x2 / headquarters
+                :location (s1n / location
+                            :name (s1n2 / name
+                                    :op1 "卑诗省"
+                                    :op2 "大"
+                                    :op3 "温哥华"
+                                    :op4 "地区"
+                                    :op5 "的"
+                                    :op6 "列治文"))
+                :ARG1 (s1x3 / subsidiary
+                        :name (s1x4 / name
+                                    :op1 "新时代"
+                                    :op2 "集团"
+                                    :op3 "子公司"
+                                    :op4 "新时代"
+                                    :op5 "传媒"
+                                    :op6 "集团"))
+                :aspect establishment)
+      :ARG1 (s1x5 / branch
+                :location (s1x6 / location
+                            :name (s1x7 / name
+                                    :op1 "安大略省"
+                                    :op2 "大"
+                                    :op3 "多伦多"
+                                    :op4 "地区"
+                                    :op5 "的"
+                                    :op6 "列治文山"))
+                :aspect establishment)
+      :aspect establishment)
+该台 现时 设有 两条 频道 ， 分别 是 以 标清 播放 的 主 频道 （ 1 台 ） 和 以 高清 播放 的 城市 2 高清 台 ： 前者 可 于 全国 以 有线 电视 、 宽带 电视 和 卫星 电视 接收 ， 后者 于 启播 初期 则 在 贝尔 公司 的 宽带 电视 系统 播放 。
+# sentence level graph:
+(s2x / 设-01
+  :ARG1 (s2x2 / 频道
+          :ARG0 (s2x3 / 台
+                  :number 2)
+          :ARG1-of (s2h / have-channel-91
+                     :ARG2 (s2x4 / 高清
+                             :mod (s2x5 / 以)
+                             :ARG0 (s2x6 / 播放
+                                    :aspect perform))
+                     :ARG1 (s2x7 / 城市)
+                     :ARG2 (s2x8 / 高清)
+                     :ARG3 (s2x9 / 台)
+                     :ARG4 (s2x10 / 启播)
+                     :ARG5 (s2x11 / 初期)
+                     :ARG6 (s2x12 / 系统)
+                     :ARG7 (s2x13 / 有线)
+                     :ARG8 (s2x14 / 宽带)
+                     :ARG9 (s2x15 / 卫星)
+                     :ARG10 (s2x16 / 接收)
+                     :ARG11 (s2x17 / 后者)
+                     :ARG12 (s2x18 / 于)
+                     :ARG13 (s2x19 / 贝尔)
+                     :ARG14 (s2x20 / 公司)
+                     :ARG15 (s2x21 / 宽带)
+                     :ARG16 (s2x22 / 系统)
+                     :ARG17 (s2x23 / 播放)
+                     :ARG18 (s2x24 / 于)
+                     :ARG19 (s2x25 / 启播)
+                     :ARG20 (s2x26 / 初期)
+                     :ARG21 (s2x27 / 系统)
+                     :ARG22 (s2x28 / 播放)
+                     :ARG23 (s2x29 / 于)
+                     :ARG24 (s2x30 / 全国)
+                     :ARG25 (s2x31 / 以)
+                     :ARG26 (s2x32 / 有线)
+                     :ARG27 (s2x33 / 宽带)
+                     :ARG28 (s2x34 / 卫星)
+                     :ARG29 (s2x35 / 接收)
+                     :ARG30 (s2x36 / 后者)
+                     :ARG31 (s2x37 / 于)
+                     :ARG32 (s2x38 / 启播)
+                     :ARG33 (s2x39 / 初期)
+                     :ARG34 (s2x40 / 系统)
+                     :ARG35 (s2x41 / 播放)
+                     :ARG36 (s2x42 / 于)
+                     :ARG37 (s2x43 / 启播)
+                     :ARG38 (s2x44 / 初期)
+                     :ARG39 (s2x45 / 系统)
+                     :ARG40 (s2x46 / 播放)
+                     :ARG41 (s2x47 / 于)
+                     :ARG42 (s2x48 / 启播)
+                     :ARG43 (s2x49 / 初期)
+                     :ARG44 (s2x50 / 系统)
+                     :ARG45 (s2x51 / 播放)
+                     :ARG46 (s2x52 / 于)
+                     :ARG47 (s2x53 / 启播)
+                     :ARG48 (s2x54 / 初期)
+                     :ARG49 (s2x55 / 系统)
+                     :ARG50 (s2x56 / 播放)
+                     :ARG51 (s2x57 / 于)
+                     :ARG52 (s2x58 / 启播)
+                     :ARG53 (s2x59 / 初期)
+                     :ARG54 (s2x60 / 系统)
+                     :ARG55 (s2x61 / 播放)
+                     :ARG56 (s2x62 / 于)
+                     :ARG57 (s2x63 / 启播)
+                     :ARG58 (s2x64 / 初期)
+                     :ARG59 (s2x65 / 系统)
+                     :ARG60 (s2x66 / 播放)
+                     :ARG61 (s2x67 / 于)
+                     :ARG62 (s2x68 / 启播)
+                     :ARG63 (s2x69 / 初期)
+                     :ARG64 (s2x70 / 系统)
+                     :ARG65 (s2x71 / 播放)
+                     :ARG66 (s2x72 / 于)
+                     :ARG67 (s2x73 / 启播)
+                     :ARG68 (s2x74 / 初期)
+                     :ARG69 (s2x75 / 系统)
+                     :ARG70 (s2x76 / 播放)
+                     :ARG71 (s2x77 / 于)
+                     :ARG72 (s2x78 / 启播)
+                     :ARG73 (s2x79 / 初期)
+                     :ARG74 (s2x80 / 系统)
+                     :ARG75 (s2x81 / 播放)
+                     :ARG76 (s2x82 / 于)
+                     :ARG77 (s2x83 / 启播)
+                     :ARG78 (s2x84 / 初期)
+                     :ARG79 (s2x85 / 系统)
+                     :ARG80 (s2x86 / 播放)
+                     :ARG81 (s2x87 / 于)
+                     :ARG82 (s2x88 / 启播)
+                     :ARG83 (s2x89 / 初期)
+                     :ARG84 (s2x90 / 系统)
+                     :ARG85 (s2x91 / 播放)
+                     :ARG86 (s2x92 / 于)
+                     :ARG87 (s2x93 / 启播)
+                     :ARG88 (s2x94 / 初期)
+                     :ARG89 (s2x95 / 系统)
+                     :ARG90 (s2x96 / 播放)
+                     :ARG91 (s2x97 / 于)
+                     :ARG92 (s2x98 / 启播)
+                     :ARG93 (s2x99 / 初期)
+                     :ARG94 (s2x100 / 系统)
+                     :ARG95 (s2x101 / 播放)
+                     :ARG96 (s2x102 / 于)
+                     :ARG97 (s2x103 / 启播)
+                     :ARG98 (s2x104 / 初期)
+                     :ARG99 (s2x105 / 系统)
+                     :ARG100 (s2x106 / 播放)
+                     :ARG101 (s2x107 / 于)
+                     :ARG102 (s2x108 / 启播)
+                     :ARG103 (s2x109 / 初期)
+                     :ARG104 (s2x110 / 系统)
+                     :ARG105 (s2x111 / 播放)
+                     :ARG106 (s2x112 / 于)
+                     :ARG107 (s2x113 / 启播)
+                     :ARG108 (s2x114 / 初期)
+                     :ARG109 (s2x115 / 系统)
+                     :ARG110 (s2x116 / 播放)
+                     :ARG111 (s2x117 / 于)
+                     :ARG112
+与 其 姊妹台 新 时代 电视 的 主 频道 不同 ， 城市 电视 的 两条 频道 于 全国 各自 以 同一 讯号 播放 ， 不设 加东 版 和 加西 版 。
+# sentence level graph:
+    (s3x / 不同-01
+      :ARG0 (s3x2 / 频道
+              :ARG0-of (s3n / television
+                          :name (s3n2 / name
+                                  :op1 "新"
+                                  :op2 "时代"
+                                  :op3 "电视")
+                          :ARG1 (s3x3 / 主
+                                    :mod (s3x4 / 其)
+                                    :ARG0 (s3x5 / 姊妹台
+                                            :ARG1 (s3x6 / 全国)
+                                            :ARG2 (s3x7 / 同一
+                                                     :ARG0 (s3x8 / 讯号
+                                                            :mod (s3x9 / 播放-01)
+                                                            :aspect activity)
+                                                     :ARG1 (s3x10 / 讯号
+                                                             :mod (s3x11 / 播放-01)
+                                                             :aspect activity)
+                                                             :ARG2 (s3x12 / 讯号
+                                                                    :mod (s3x13 / 播放-01)
+                                                                    :aspect activity)
+                                                                    :ARG3 (s3x14 / 讯号
+                                                                            :mod (s3x15 / 播放-01)
+                                                                            :aspect activity)
+                                                                            :ARG4 (s3x16 / 讯号
+                                                                                :mod (s3x17 / 播放-01)
+                                                                                :aspect activity)
+                                                                                :ARG5 (s3x18 / 讯号
+                                                                                        :mod (s3x19 / 播放-01)
+                                                                                        :aspect activity)
+                                                                                        :ARG6 (s3x20 / 讯号
+                                                                                               :mod (s3x21 / 播放-01)
+                                                                                               :aspect activity)
+                                                                                               :ARG7 (s3x22 / 讯号
+                                                                                                   :mod (s3x23 / 播放-01)
+                                                                                                   :aspect activity)
+                                                                                                   :ARG8 (s3x24 / 讯号
+                                                                                                       :mod (s3x25 / 播放-01)
+                                                                                                       :aspect activity)
+                                                                                                       :ARG9 (s3x26 / 讯号
+                                                                                                           :mod (s3x27 / 播放-01)
+                                                                                                           :aspect activity)
+                                                                                                           :ARG10 (s3x28 / 讯号
+                                                                                                               :mod (s3x29 / 播放-01)
+                                                                                                               :aspect activity)
+                                                                                                               :ARG11 (s3x30 / 讯号
+                                                                                                                   :mod (s3x31 / 播放-01)
+                                                                                                                   :aspect activity)
+                                                                                                                   :ARG12 (s3x32 / 讯号
+                                                                                                                       :mod (s3x33 / 播放-01)
+                                                                                                                       :aspect activity)
+                                                                                                                       :ARG13 (s3x34 / 讯号
+                                                                                                                           :mod (s3x35 / 播放-01)
+                                                                                                                           :aspect activity)
+                                                                                                                           :ARG14 (s3x36 / 讯号
+                                                                                                                               :mod (s3x37 / 播放-01)
+                                                                                                                               :aspect activity)
+                                                                                                                               :ARG15 (s3x38 / 讯号
+                                                                                                                                   :mod (s3x39 / 播放-01)
+                                                                                                                                   :aspect activity)
+                                                                                                                                   :ARG16 (s3x40 / 讯号
+                                                                                                                                       :mod (s3x41 / 播放-01)
+                                                                                                                                       :aspect activity)
+                                                                                                                                       :ARG17 (s3x42 / 讯号
+                                                                                                                                           :mod (s3x43 / 播放-01)
+                                                                                                                                           :aspect activity)
+                                                                                                                                           :ARG18 (s3x44 / 讯号
+                                                                                                                                               :mod (s3x45 / 播放-01)
+                                                                                                                                               :aspect activity)
+                                                                                                                                               :ARG19 (s3x46 / 讯号
+                                                                                                                                                   :mod (s3x47 / 播放-01)
+                                                                                                                                                   :aspect activity)
+                                                                                                                                                   :ARG20 (s3x48 / 讯号
+                                                                                                                                                       :mod (s3x49 / 播放-01)
+                                                                                                                                                       :aspect activity)
+                                                                                                                                                       :ARG21 (s3x50 / 讯号
+                                                                                                                                                           :mod (s3x51 / 播放-01)
+                                                                                                                                                           :aspect activity)
+                                                                                                                                                           :ARG22 (s3x52 / 讯号
+                                                                                                                                                               :mod (s3x53 / 播放-01)
+                                                                                                                                                               :aspect activity)
+                                                                                                                                                               :ARG23 (s3x54 / 讯号
+                                                                                                                                                                   :mod (s3x55 / 播放-01)
+                                                                                                                                                                   :aspect activity)
+                                                                                                                                                                   :ARG24 (s3x56 / 讯号
+                                                                                                                                                                       :mod (s3x57 / 播放-01)
+                                                                                                                                                                       :aspect activity)
+                                                                                                                                                                       :ARG25 (s3x58 / 讯号
+                                                                                                                                                                           :mod (s3x59 / 播放-01)
+                                                                                                                                                                           :aspect activity)
+                                                                                                                                                                           :ARG26 (s3x60 / 讯号
+                                                                                                                                                                               :mod (s3x61 / 播放-01)
+                                                                                                                                                                               :aspect activity)
+                                                                                                                                                                               :ARG27 (s3x62 / 讯号
+                                                                                                                                                                                                   :mod (s3x63 / 播放-01)
+                                                                                                                                                                                                   :aspect activity)
+                                                                                                                                                                                                   :ARG28 (s3x64 / 讯号
+                                                                                                                                                                                                           :mod (s3x65 / 播放-01)
+                                                                                                                                                                                                           :aspect activity)
+                                                                                                                                                                                                           :ARG29 (s3x66 / 讯号
+                                                                                                                                                                                                               :mod (s3x67 / 播放-01)
+                                                                                                                                                                                                               :aspect activity)
+                                                                                                                                                                                                               :ARG30 (s3x68 / 讯号
+                                                                                                                                                                                                                   :mod (s3x69 / 播放-01)
+                                                                                                                                                                                                                   :aspect activity)
+                                                                                                                                                                                                                   :ARG31 (s3x69 / 讯号
+                                                                                                                                                                                                                       :mod (s3x70 / 播放-01)
+                                                                                                                                                                                                                       :aspect activity)
+                                                                                                                                                                                                                       :ARG32 (s3x71 / 讯号
+                                                                                                                                                                                                                           :mod (s3x72 / 播放-01)
+                                                                                                                                                                                                                           :aspect activity)
+                                                                                                                                                                                                                           :ARG33 (s3x73 / 讯号
+                                                                                                                                                                                                                               :mod (s3x74 / 播放-01)
+                                                                                                                                                                                                                               :aspect activity)
+                                                                                                                                                                                                                               :ARG34 (s3x75 / 讯号
+                                                                                                                                                                                                                                   :mod (s3x76 / 播放-01)
+                                                                                                                                                                                                                                   :aspect activity)
+                                                                                                                                                                                                                                   :ARG35 (s3x77 / 讯号
+                                                                                                                                                                                                                                   :mod (s3x78 / 播放-01)
+                                
+城市 电视 的 历史 可 追溯 至 温哥华 的 世界 电视 。
+# sentence level graph:
+(s4x / 历史-01
+  :ARG1 (s4x2 / 电视
+          :mod (s4x3 / 城市)
+          :part-of (s4n / station
+                      :name (s4n2 / name
+                                :op1 "温哥华"
+                                :op2 "的"
+                                :op3 "世界"
+                                :op4 "电视")))
+  :aspect performance
+  :temporal (s4h / trace-back-to
+               :ARG1 (s4m / world
+                        :name (s4m2 / name
+                                :op1 "世界"
+                                :op2 "电视")
+                        :aspect performance))
+该台 由 刘天均 创办 ， 于 1982 年 获 加拿大 视讯 委员会 （ CRTC ） 发放 地区性 收费 电视 牌照 ， 并 于 同年 启播 。
+# sentence level graph:
+(s5x / 创办-01
+  :ARG0 (s5n / station
+          :name (s5n2 / name
+                  :op1 "该台"
+                  :op2 "由"
+                  :op3 (s5n3 / name
+                          :op4 "刘天均"
+                          :op5 "创办")
+                  :op6 "于")
+          :temporal (s5d / date-entity
+                        :year 1982))
+  :ARG1 (s5x2 / 获-01
+            :ARG1 (s5x3 / license
+                       :name (s5x4 / name
+                                :op1 "加拿大"
+                                :op2 "视讯"
+                                :op3 "委员会"
+                                :op4 "（"
+                                :op5 "CRTC"
+                                :op6 "）"
+                                :op7 "）"
+                       :ARG0-of (s5x5 / issue
+                                   :aspect performance))
+            :ARG2 (s5x6 / 地区性
+                       :mod (s5x7 / 收费)
+                       :ARG0-of (s5x8 / 电视
+                                 :name (s5x9 / name
+                                        :op1 "牌照"
+                                        :op2 "，"
+                                        :op3 "并"
+                                        :op4 "于"
+                                        :op5 "同年"
+                                        :op6 "启播"
+                                        :op7 "。"
+                                 )
+                                 :aspect performance))
+            :aspect action)
+世界 电视 的 广播 范围 限于 卑诗省 ， 以 粤语 、 国语 和 旁遮普语 等 语言 服务 省内 的 少数 族裔 社群 ， 总部 设 于 温哥华 市甘比街 。
+# sentence level graph:
+(s6x / 广播-01
+  :ARG1 (s6x2 / 电视
+          :mod (s6x3 / 世界)
+          :ARG1-of (s6x4 / 节目
+                      :mod (s6x5 / 粤语)
+                      :ARG1 (s6x6 / 语言)
+                      :ARG2 (s6x7 / 国语)
+                      :ARG3 (s6x8 / 旁遮普语)
+                      :ARG4 (s6x9 / 其他)
+                      :aspect performance))
+  :ARG2 (s6x10 / 范围
+          :mod (s6x11 / 限于)
+          :ARG0 (s6x12 / 卑诗省)
+          :aspect state)
+  :ARG3 (s6x13 / 语言
+          :ARG0 (s6x14 / 服务
+                      :ARG1 (s6x15 / 省内)
+                      :ARG2 (s6x16 / 少数)
+                      :ARG3 (s6x17 / 族裔)
+                      :ARG4 (s6x18 / 社群)
+                      :aspect performance))
+  :ARG4 (s6x19 / 总部
+          :mod (s6x20 / 设)
+          :ARG1 (s6x21 / 于)
+          :ARG2 (s6x22 / 温哥华)
+          :ARG3 (s6x23 / 市)
+          :ARG4 (s6x24 / 甘比街)
+          :aspect performance))
+该台 当年 并 不 被 允许 播放 广告 ， 收入 来自 定义 户 收费 ； 此 限制 于 1992 年 取消 。
+# sentence level graph:
+(s7g / have-permission-91
+  :ARG1 (s7g2 / play-01
+          :ARG1-of (s7g3 / adverting-91
+                      :ARG1 (s7g4 / 该)
+                      :ARG2 (s7g5 / 台
+                              :ARG0-of (s7h / have-org-role-91
+                                         :ARG3 (s7g6 / 收入
+                                             :ARG1-of (s7g7 / fee-91
+                                                     :ARG0 (s7g8 / 定义
+                                                         :ARG1 (s7g9 / 户
+                                                             :ARG0-of (s7h3 / have-org-role-91
+                                                                   :ARG3 (s7g10 / 收费
+                                                                     :ARG1 (s7g11 / 费
+                                                                       :ARG0 (s7g12 / 收
+                                                                           :ARG1 (s7g13 / 入
+                                                                               :ARG2 (s7g14 / 费
+                                                                                   :ARG0 (s7g15 / 收
+                                                                                       :ARG1 (s7g16 / 入
+                                                                                           :ARG2 (s7g17 / 费用
+                                                                                               :ARG0 (s7g18 / 定
+                                                                                                   :ARG1 (s7g19 / 户
+                                                                                                       :ARG0-of (s7h3 / have-org-role-91
+                                                                                                           :ARG3 (s7g20 / 费
+                                                                                                               :ARG1 (s7g21 / 费
+                                                                                                                   :ARG0 (s7g22 / 收
+                                                                                                                       :ARG1 (s7g23 / 入
+                                                                                                                           :ARG2 (s7g24 / 费用
+                                                                                                                               :ARG0 (s7g25 / 定
+                                                                                                                                   :ARG1 (s7g26 / 户
+                                                                                                                                       :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                           :ARG3 (s7g27 / 费
+                                                                                                                                               :ARG1 (s7g28 / 费
+                                                                                                                                                   :ARG0 (s7g29 / 收
+                                                                                                                                                       :ARG1 (s7g30 / 入
+                                                                                                                                                           :ARG2 (s7g31 / 费用
+                                                                                                                                                               :ARG0 (s7g32 / 定
+                                                                                                                                                                   :ARG1 (s7g33 / 户
+                                                                                                                                                                       :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                           :ARG3 (s7g34 / 费
+                                                                                                                                                                               :ARG1 (s7g35 / 费
+                                                                                                                                                                                   :ARG0 (s7g36 / 收
+                                                                                                                                                                                       :ARG1 (s7g37 / 入
+                                                                                                                                                                                           :ARG2 (s7g38 / 费用
+                                                                                                                                                                                               :ARG0 (s7g39 / 定
+                                                                                                                                                                                                   :ARG1 (s7g40 / 户
+                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                           :ARG3 (s7g41 / 费
+                                                                                                                                                                                                               :ARG1 (s7g42 / 费
+                                                                                                                                                                                                                   :ARG0 (s7g43 / 收
+                                                                                                                                                                                                                       :ARG1 (s7g44 / 入
+                                                                                                                                                                                                                           :ARG2 (s7g45 / 费用
+                                                                                                                                                                                                                               :ARG0 (s7g46 / 定
+                                                                                                                                                                                                                                   :ARG1 (s7g47 / 户
+                                                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                                                           :ARG3 (s7g48 / 费
+                                                                                                                                                                                                                                               :ARG1 (s7g49 / 费
+                                                                                                                                                                                                                                                   :ARG0 (s7g50 / 收
+                                                                                                                                                                                                                                                       :ARG1 (s7g51 / 入
+                                                                                                                                                                                                                                                           :ARG2 (s7g52 / 费用
+                                                                                                                                                                                                                                                               :ARG0 (s7g53 / 定
+                                                                                                                                                                                                                                                                   :ARG1 (s7g54 / 户
+                                                                                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                                                                                           :ARG3 (s7g55 / 费
+                                                                                                                                                                                                                                                                               :ARG1 (s7g56 / 费
+                                                                                                                                                                                                                                                                                   :ARG0 (s7g57 / 收
+                                                                                                                                                                                                                                                                                       :ARG1 (s7g58 / 入
+                                                                                                                                                                                                                                                                                           :ARG2 (s7g59 / 费用
+                                                                                                                                                                                                                                                                                               :ARG0 (s7g60 / 定
+                                                                                                                                                                                                                                                                                                   :ARG1 (s7g61 / 户
+                                                                                                                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                                                                                                                           :ARG3 (s7g62 / 费
+                                                                                                                                                                                                                                                                                                               :ARG1 (s7g63 / 费
+                                                                                                                                                                                                                                                                                                                   :ARG0 (s7g64 / 收
+                                                                                                                                                                                                                                                                                                                       :ARG1 (s7g65 / 入
+                                                                                                                                                                                                                                                                                                                           :ARG2 (s7g66 / 费用
+                                                                                                                                                                                                                                                                                                                               :ARG0 (s7g67 / 定
+                                                                                                                                                                                                                                                                                                                                   :ARG1 (s7g68 / 户
+                                                                                                                                                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                                                                                                                                                           :ARG3 (s7g69 / 费
+                                                                                                                                                                                                                                                                                                                                               :ARG1 (s7g70 / 费
+                                                                                                                                                                                                                                                                                                                                                   :ARG0 (s7g71 / 收
+                                                                                                                                                                                                                                                                                                                                                       :ARG1 (s7g72 / 入
+                                                                                                                                                                                                                                                                                                                                                           :ARG2 (s7g73 / 费用
+                                                                                                                                                                                                                                                                                                                                                               :ARG0 (s7g74 / 定
+                                                                                                                                                                                                                                                                                                                                                                   :ARG1 (s7g75 / 户
+                                                                                                                                                                                                                                                                                                                                                                   :ARG0-of (s7h3 / have-org-role-91
+                                                                                                                                                                                                                                                                                                                                                                           :ARG3 (s7g76 / 费
+                                                                                                                                                                                                                                                                                                                                                                               :ARG1 (s7g77 / 费
+                                                                                                                                                                                                                                                                                                                                                                                   :ARG0 (s7g78 / 收
+                                                                                                                                                                                                                                                                                                                                                                                       :ARG1 (s7g79 / 入
+                                                                                                                                                                                                                                                                                                                                                                                           :ARG2 (s7g80 / 费用
+                                                                                                                                                                                                                                                                                                                                                                                                                               :ARG0 (s7g81 / 定
+                                                                                                                                                                                                                                                                                                                                                                                                   :ARG1 (s7g82 / 户
+                                                                                                                                                                                                                                                                                                                                                                                                   :ARG0-of
+世界 电视 于 1983 年 向 CRTC 申请 全国性 中文 收费 电视 牌照 ， 但 当局 于 1984 年 将 此 牌照 批予 由 章建国 （ 即 章小蕙 之父 ） 于 多伦多 创办 的 加拿大 中文 电视 有限 公司 （ 简称 「 中文 电视 」 ） 。
+# sentence level graph:
+(s8x / 申请-01
+  :ARG1 (s8x2 / 牌照
+          :target (s8x3 / 全国性
+                      :mod (s8x4 / 中文)
+                      :part-of (s8x5 / 收费
+                                 :mod (s8x6 / 电视)
+                                 :part-of (s8x7 / 电视)
+                                 :ARG1 (s8n / organization
+                                         :name (s8n2 / name
+                                               :op1 "世界"
+                                               :op2 "电视")
+                                         :ARG1 (s8m / application
+                                                :ARG1 (s8l / license
+                                                         :target (s8k / CRTC
+                                                                     :ARG1 (s8j / authority
+                                                                           :name (s8i / name
+                                                                               :op1 "当局"
+                                                                               :op2 "于"
+                                                                               :op3 "1984年"
+                                                                               :op4 "将"
+                                                                               :op5 "此"
+                                                                               :polarity -))
+                                                         :ARG2 (s8h / national
+                                                                     :ARG0 (s8g / Chinese)
+                                                                     :ARG1 (s8f / television
+                                                                           :mod (s8e / 收费)
+                                                                           :part-of (s8d / television)
+                                                                           :ARG0 (s8c / Chinese)
+                                                                     :ARG1 (s8b / license
+                                                                           :target (s8a / television-license
+                                                                                   :ARG1 (s8r / television
+                                                                                       :mod (s8s / 全国性)
+                                                                                       :part-of (s8t / television)
+                                                                                       :ARG0 (s8u / Chinese)
+                                                                                   :ARG1 (s8q / license
+                                                                                       :target (s8p / television-license
+                                                                                           :ARG1 (s8o / television
+                                                                                               :mod (s8n / 中文)
+                                                                                               :part-of (s8m / television)
+                                                                                               :ARG0 (s8l / Chinese)
+                                                                                           :ARG1 (s8k / television-license
+                                                                                               :ARG1 (s8j / television
+                                                                                                   :mod (s8i / 全国性)
+                                                                                                   :part-of (s8h / television)
+                                                                                                   :ARG0 (s8g / Chinese)
+                                                                                               :ARG1 (s8f / television-license
+                                                                                                   :target (s8e / television-license
+                                                                                                       :ARG1 (s8d / television
+                                                                                                           :mod (s8c / 中文)
+                                                                                                           :part-of (s8b / television)
+                                                                                                           :ARG0 (s8a / Chinese)
+                                                                                                       :ARG1 (s8v / television-license
+                                                                                                           :ARG1 (s8u / television
+                                                                                                               :mod (s8t / 全国性)
+                                                                                                               :part-of (s8s / television)
+                                                                                                               :ARG0 (s8r / Chinese)
+                                                                                                           :ARG1 (s8q / television-license
+                                                                                                               :ARG1 (s8p / television
+                                                                                                                   :mod (s8o / 中文)
+                                                                                                                   :part-of (s8n / television)
+                                                                                                                   :ARG0 (s8m / Chinese)
+                                                                                                               :ARG1 (s8l / television-license
+                                                                                                                   :target (s8k / television-license
+                                                                                                                       :ARG1 (s8j / television
+                                                                                                                           :mod (s8i / 全国性)
+                                                                                                                           :part-of (s8h / television)
+                                                                                                                           :ARG0 (s8g / Chinese)
+                                                                                                                           :ARG1 (s8f / television-license
+                                                                                                                               :ARG1 (s8e / television
+                                                                                                                                   :mod (s8d / 中文)
+                                                                                                                                   :part-of (s8c / television)
+                                                                                                                                   :ARG0 (s8a / Chinese)
+                                                                                                                               :ARG1 (s8v / television-license
+                                                                                                                                   :ARG1 (s8u / television
+                                                                                                                                           :mod (s8t / 全国性)
+                                                                                                                                           :part-of (s8s / television)
+                                                                                                                                           :ARG0 (s8r / Chinese)
+                                                                                                                                   :ARG1 (s8q / television-license
+                                                                                                                                           :ARG1 (s8p / television
+                                                                                                                                               :mod (s8o / 中文)
+                                                                                                                                               :part-of (s8n / television)
+                                                                                                                                               :ARG0 (s8m / Chinese)
+                                                                                                                                           :ARG1 (s8l / television-license
+                                                                                                                                               :target (s8k / television-license
+                                                                                                                                                   :ARG1 (s8j / television
+                                                                                                                                                       :mod (s8i / 全国性)
+                                                                                                                                                       :part-of (s8h / television)
+                                                                                                                                                       :ARG0 (s8g / Chinese)
+                                                                                                                                                       :ARG1 (s8f / television-license
+                                                                                                                                                               :ARG1 (s8e / television
+                                                                                                                                                                   :mod (s8d / 中文)
+                                                                                                                                                                   :part-of (s8c / television)
+                                                                                                                                                                   :ARG0 (s8a / Chinese)
+                                                                                                                                                               :ARG1 (s8v / television-license
+                                                                                                                                                                   :ARG1 (s8u / television
+                                                                                                                                                                           :mod (s8t / 全国性)
+                                                                                                                                                                           :part-of (s8s / television)
+                                                                                                                                                                           :ARG0 (s8r / Chinese)
+                                                                                                                                                                   :ARG1 (s8q / television-license
+                                                                                                                                                                   :ARG1 (s8p / television
+                                                                                                                                                                           :mod (s8o / 中文)
+                                                                                                                                                                           :part-of (s8n / television)
+                                                                                                                                                                           :ARG0 (s8m / Chinese)
+                                                                                                                                                                   :ARG1 (s8l / television-license
+                                                                                                                                                                   :target (s8k / television-license
+                                                                                                                                                                           :ARG1 (s8j / television
+                                                                                                                                                                                   :mod (s8i / 全国性)
+                                                                                                                                                                                   :part-of (s8h / television)
+                                                                                                                                                                                   :ARG0 (s8g / Chinese)
+                                                                                                                                                                                   :ARG1 (s8f / television-license
+                                                                                                                                                                                               :ARG1 (s8e / television
+                                                                                                                                                                                   :mod (s8d / 中文)
+                                                                                                                                                                                   :part-of (s8c / television)
+                                                                                                                                                                                   :ARG0 (s8a / Chinese)
+                                                                                                                                                                                               :ARG1 (s8v / television-license
+                                                                                                                                                                                               :ARG1 (s8u / television
+                                                                                                                                                                                                   :mod (s8t / 全国性)
+                                                                                                                                                                                                   :part-of (s8s / television)
+                                                                                                                                                                                                   :ARG0 (s8r / Chinese)
+                                                                                                                                                                                                   :ARG1 (s8q / television-license
+                                                                                                                                                                                                   :ARG1 (s8p / television
+                                                                                                                                                                                                           :mod (s8o / 中文)
+                                                                                                                                                                                                           :part-of (s8n / television)
+                                                                                                                                                                                                           :ARG0 (s8m / Chinese)
+                                                                                                                                                                                                   :ARG1 (s8l / television-license
+                                                                                                                                                                                                   :target (s8k / television-license
+                                                                                                                                                                                                           :ARG1 (s8j / television
+                                                                                                                                                                                                   :mod (s8i / 全国性)
+                                                                                                                                                                                                   :part-of (s8h / television)
+而 又 见 当年 加拿大 中文 电视 广播 业正 处于 起步 阶段 ， 当局 认为 温哥华 地区 难以 支持 两间 相互 竞争 的 中文 电视台 ， 因此 在 中文 电视 的 牌照 上 加入 条款 ， 限制 该台 于 启播 两年 内 不能 于卑诗省 落地 ， 令 世界 电视 得以 维持 其 省内 唯一 中文 电视台 的 地位 。
+# sentence level graph:
+(s9y / 而-01
+  :ARG1 (s9z / 又-01
+          :ARG1 (s9a / 见-01
+                  :ARG0 (s9b / 当年
+                          :temporal (s9c / era
+                                    :start 1980
+                                    :end 1999
+                                    :aspect temporal))
+                  :ARG1 (s9d / 加拿大
+                          :country
+                          :ARG1 (s9e / 中文
+                                   :language
+                                   :ARG1 (s9f / 电视
+                                           :device
+                                           :ARG1 (s9g / 广播-01
+                                                   :ARG1 (s9h / 业
+                                                       :activity
+                                                       :ARG0 (s9i / 正-01
+                                                           :aspect aspect
+                                                           :ARG1 (s9j / 起步-01
+                                                               :ARG0 (s9k / 阶段
+                                                                       :aspect state
+                                                                       :ARG1 (s9l / 业
+                                                                           :activity
+                                                                           :ARG0 (s9m / 加
+                                                                               :country
+                                                                               :ARG1 (s9n / 中文
+                                                                                   :language
+                                                                                   :ARG1 (s9o / 电视
+                                                                                       :device
+                                                                                       :ARG1 (s9p / 温哥华
+                                                                                           :location
+                                                                                           :ARG0 (s9q / 地区
+                                                                                               :aspect spatial
+                                                                                               :ARG1 (s9r / 难-01
+                                                                                                   :ARG0 (s9s / 支持-01
+                                                                                                       :ARG1 (s9t / 两间
+                                                                                                           :ARG0 (s9u / 相互
+                                                                                                               :aspect relational
+                                                                                                               :ARG1 (s9v / 竞争-01
+                                                                                                                   :aspect aspect
+                                                                                                                   :ARG0 (s9w / 中文
+                                                                                                                       :language
+                                                                                                                       :ARG1 (s9x / 电视台
+                                                                                                                           :device
+                                                                                                                           :ARG1 (s9y / 世界
+                                                                                                                               :organization
+                                                                                                                               :ARG1 (s9z / 不能
+                                                                                                                                   :ARG0 (s{aa} / 启播-01
+                                                                                                                                   :ARG1 (s{ab} / 两年
+                                                                                                                                       :aspect temporal
+                                                                                                                                       :ARG0 (s{ac} / 不能
+                                                                                                                                           :ARG1 (s{ad} / 于
+                                                                                                                                                   :ARG0 (s{ae} / 卑诗省
+                                                                                                                                                   :location
+                                                                                                                                                   :ARG1 (s{af} / 令
+                                                                                                                                                   :ARG0 (s{b0} / 世界
+                                                                                                                                                   :ARG1 (s{b1} / 电视
+                                                                                                                                                   :ARG0 (s{b2} / 得以
+                                                                                                                                                   :ARG1 (s{b3} / 其
+                                                                                                                                                   :ARG0 (s{b4} / 省内
+                                                                                                                                                   :ARG1 (s{b5} / 唯一
+                                                                                                                                                   :ARG0 (s{b6} / 中文
+                                                                                                                                                   :ARG1 (s{b7} / 电视台
+                                                                                                                                                   :ARG0 (s{b8} / 地位
+                                                                                                                                                   :ARG1 (s{b9} / 维持
+                                                                                                                                                   :ARG0 (s{ba} / 其
+                                                                                                                                                   :ARG1 (s{bb} / 地位
+                                                                                                                                                   :ARG0 (s{bc} / 维持
+                                                                                                                                                   :ARG1 (s{bd} / 其
+                                                                                                                                                   :ARG0 (s{be} / 其
+                                                                                                                                                   :ARG1 (s{bf} / 地位
+                                                                                                                                                   :ARG0 (s{c0} / 其
+                                                                                                                                                   :ARG1 (s{c1} / 地位
+                                                                                                                                                   :ARG0 (s{c2} / 维持
+                                                                                                                                                   :ARG1 (s{c3} / 其
+                                                                                                                                                   :ARG0 (s{c4} / 其
+                                                                                                                                                   :ARG1 (s{c5} / 地位
+                                                                                                                                                   :ARG0 (s{c6} / 维持
+                                                                                                                                                   :ARG1 (s{c7} / 其
+                                                                                                                                                   :ARG0 (s{c8} / 其
+                                                                                                                                                   :ARG1 (s{c9} / 地位
+                                                                                                                                                   :ARG0 (s{ca} / 维持
+                                                                                                                                                   :ARG1 (s{cb} / 其
+                                                                                                                                                   :ARG0 (s{cc} / 其
+                                                                                                                                                   :ARG1 (s{cd} / 地位
+                                                                                                                                                   :ARG0 (s{ce} / 维持
+                                                                                                                                                   :ARG1 (s{cf} / 其
+                                                                                                                                                   :ARG0 (s{d0} / 其
+                                                                                                                                                   :ARG1 (s{d1} / 地位
+                                                                                                                                                   :ARG0 (s{d2} / 维持
+                                                                                                                                                   :ARG1 (s{d3} / 其
+                                                                                                                                                   :ARG0 (s{d4} / 其
+                                                                                                                                                   :ARG1 (s{d5} / 地位
+                                                                                                                                                   :ARG0 (s{d6} / 维持
+                                                                                                                                                   :ARG1 (s{d7} / 其
+                                                                                                                                                   :ARG0 (s{d8} / 其
+                                                                                                                                                   :ARG1 (s{d9} / 地位
+                                                                                                                                                   :ARG0 (s{da} / 维持
+                                                                                                                                                   :ARG1 (s{db} / 其
+                                                                                                                                                   :ARG0 (s{dc} / 其
+                                                                                                                                                   :ARG1 (s{dd} / 地位
+                                                                                                                                                   :ARG0 (s{de} / 维持
+                                                                                                                                                   :ARG1 (s{df} / 其
+                                                                                                                                                   :ARG0 (s{e0} / 其
+                                                                                                                                                   :ARG1 (s{e1} / 地位
+                                                                                                                                                   :ARG0 (s{e2} / 维持
+                                                                                                                                                   :ARG1 (s{e3} / 其
+                                                                                                                                                   :ARG0 (s{e4} / 其
+                                                                                                                                                   :ARG1 (s{e5} / 地位
+                                                                                                                                                   :ARG0 (s{e6} / 维持
+                                                                                                                                                   :ARG1 (s{e7} / 其
+                                                                                                                                                   :ARG0 (s{e8} / 其
+                                                                                                                                                   :ARG1 (s{e9} / 地位
+                                                                                                                                                   :ARG0 (s{ea} / 维持
+                                                                                                                                                   :ARG1 (s{eb} / 其
+                                                                                                                                                   :ARG0 (s{ec} / 其
+                                                                                                                                                   :ARG1 (s{ed} / 地位
+                                                                                                                                                   :ARG0 (s{ee} / 维持
+                                                                                                                                                   :ARG1 (s{ef} / 其
+                                                                                                                                                   :ARG0 (s{f0} / 其
+                                                                                                                                                   :ARG1 (s{f1} / 地位
+                                                                                                                                                   :ARG0 (s{f2} / 维持
+                                                                                                                                                   :ARG1 (s{f3} / 其
+                                                                                                                                                   :ARG0 (s{f4} / 其
+                                                                                                                                                   :ARG1 (s{f5} / 地位
+                                                                                                                                                   :ARG0 (s{f6} / 维持
+                                                                                                                                                   :ARG1 (
